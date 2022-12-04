@@ -1,0 +1,245 @@
+/* 
+!!!Plugins
+
+Auto Close Tag
+Auto Complete Tag
+Auto Rename Tag
+BEM Helper
+Better Comments
+CSS Navigation
+eCSStractor for VSCode
+Google Fonts
+Image preview
+Live Sass Compiler
+Live Server
+Path Autocomplete
+Russian Language
+Settings Sync
+*/
+
+============================
+============================
+============================
+============================
+============================
+============================
+SNIPPETS
+{
+	// Place your GLOBAL snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Margin": {
+		"scope": "css,scss",
+		"prefix": "mm",
+		"body": [
+			"margin: 0px 0px 0px 0px;",
+		],
+		"description": "Margin"
+	},
+	"Marg": {
+		"scope": "css,scss",
+		"prefix": "m",
+		"body": [
+			"margin: 0px 0px;",
+		],
+		"description": "Margin"
+	},
+	"Padding": {
+		"scope": "css,scss",
+		"prefix": "pp",
+		"body": [
+			"padding: 0px 0px 0px 0px;",
+		],
+		"description": "Padding"
+	},
+	"Background": {
+		"scope": "css,scss",
+		"prefix": "bg+",
+		"body": [
+			"background: url(../images/) 0 0 no-repeat;",
+		],
+		"description": "Background"
+	},
+	"ABS": {
+		"scope": "css,scss",
+		"prefix": "abs",
+		"body": [
+			"position: absolute;",
+			"top: 0;",
+			"left: 0;",
+			"width: 100%;",
+			"height: 100%;",
+			"object-fit: cover;"
+		],
+		"description": "ABS"
+	},
+	"Center": {
+		"scope": "css,scss",
+		"prefix": "center",
+		"body": [
+			"display: flex;",
+			"justify-content: center;",
+			"align-items: center;"
+		],
+		"description": "Center"
+	},
+	"Flex": {
+		"scope": "css,scss",
+		"prefix": "df",
+		"body": [
+			"display: flex;"
+		],
+		"description": "Flex"
+	},
+	"Block": {
+		"scope": "css,scss",
+		"prefix": "db",
+		"body": [
+			"display: block;"
+		],
+		"description": "Block"
+	},
+	"Grid": {
+		"scope": "css,scss",
+		"prefix": "dg",
+		"body": [
+			"display: grid;"
+		],
+		"description": "Grid"
+	},
+	"Null": {
+		"scope": "css,scss",
+		"prefix": "null",
+		"body": [
+			"*{",
+			"padding: 0;",
+			"margin: 0;",
+			"border: 0;}",
+			"*,*:before,*:after{",
+			"-moz-box-sizing: border-box;",
+			"-webkit-box-sizing: border-box;",
+			"box-sizing: border-box;}",
+			":focus,:active{outline: none;}",
+			"a:focus,a:active{outline: none;}",
+			"nav,footer,header,aside{display: block;}",
+			"html,body{",
+			"height: 100%;",
+			"width: 100%;",
+			"font-size: 100%;",
+			"line-height: 1;",
+			"font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;",
+			"-ms-text-size-adjust: 100%;",
+			"-moz-text-size-adjust: 100%;",
+			"-webkit-text-size-adjust: 100%;}",
+			"input,button,textarea{font-family:inherit;}",
+			"input::-ms-clear{display: none;}",
+			"button{cursor: pointer;}",
+			"button::-moz-focus-inner {padding:0;border:0;}",
+			"a, a:visited{text-decoration: none;}",
+			"a:hover{text-decoration: none;}",
+			"ul li{list-style: none;}",
+			"img{vertical-align: top;}",
+			"h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}",
+			"/*--------------------*/",
+			"/*--------------------*/",
+			"/*--------------------*/",
+			"/*--------------------*/",
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"description": "Null"
+	},
+	"!!": {
+		"scope": "html",
+		"prefix": "!!",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang='ru'>",
+			"<head>",
+			"<meta charset='UTF-8'>",
+			"<meta http-equiv='X-UA-Compatible' content='IE=edge'>",
+			"<meta name='viewport' content='width=device-width, initial-scale=1.0'>",
+			"<title>Document</title>",
+			"<link rel='stylesheet' href='../css/'>",
+			"</head>",
+			"<body>",
+			"<div class='wrapper'>",
+			"</div>",
+			"<script src='../js/'></script>",
+			"</body>",
+			"</html>",
+		],
+		"description": "!!"
+	},
+}
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+Settings
+
+{
+	"breadcrumbs.enabled": false,
+	"editor.fontSize": 17,
+	"editor.tabSize": 3,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.hover.enabled": false,
+	"editor.mouseWheelZoom": false,
+	"workbench.editor.closeEmptyGroups": false,
+	"editor.formatOnSave": true,
+	"liveSassCompile.settings.generateMap": false,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"autoprefix": "last 5 versions",
+			"extensionName": ".css",
+			"savePath": "css"
+		}
+	],
+	"editor.minimap.enabled": false,
+	"editor.quickSuggestionsDelay": 5,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"git.ignoreMissingGitWarning": true,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"path-autocomplete.pathMappings": {
+		"@img": "${folder}/src/img", // alias for images
+		"@scss": "${folder}/src/scss", // alias for scss
+		"@js": "${folder}/src/js", // alias for js
+	},
+	"workbench.startupEditor": "none",
+	"explorer.confirmDelete": false,
+	"workbench.colorTheme": "Darcula",
+	"explorer.confirmDragAndDrop": false,
+	"sync.gist": "2f0edab3a1e6b4b34b654c140ab21243",
+}
+============================
+============================
+============================
+============================
+============================
+============================
+============================
